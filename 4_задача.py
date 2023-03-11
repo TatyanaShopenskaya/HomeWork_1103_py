@@ -13,4 +13,4 @@ S = int(input('Введите количество сделанных всего
 a = int
 b = int
 c = int
-print('Каждый ребенок сделал ->' , math.ceil(S/6), math.ceil(4*S/6), math.ceil(S/6))
+print('Каждый ребенок сделал ->' , S//6, 4*S//6, S//6)
